@@ -1,6 +1,0 @@
-{
-    "require": {
-        "ccxt/ccxt": "^1.53",
-        "guzzlehttp/guzzle": "7.0"
-    }
-}
