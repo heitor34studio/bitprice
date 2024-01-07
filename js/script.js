@@ -59,7 +59,7 @@ async function enviaInfo() {
     try {
         await new Promise(resolve => {
             $.ajax({
-                url: 'backend/controller/BuscaApiController.php',
+                url: 'api/controller/BuscaApiController.php',
                 method: 'post',
                 data: { moedas: moedas, corretoras: corretoras },
                 beforeSend: function () {
